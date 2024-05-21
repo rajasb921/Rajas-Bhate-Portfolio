@@ -7,6 +7,7 @@ body{
   background-color: #6C757D;
 }
 
+/* Navbar */
 .navbar-nav{
   margin-left: auto;
 }
@@ -16,6 +17,7 @@ a{
   letter-spacing: 1px;
 }
 
+/* Hero Section */
 .parallax{
   text-align: center;
   background-image: url("assets/HeroImage.jpg");
@@ -64,7 +66,8 @@ a{
   font-style: italic;
 }
 
-#mission-section{
+/* About Section */
+#about-section{
   vertical-align: middle;
   background-color: #495057;
   width: 100%;
@@ -73,7 +76,7 @@ a{
   padding-bottom: 70px;
 }
 
-.mission-title{
+.about-title{
   font-family: 'Yeseva One', cursive;
   font-size: 8vmin;
   color: white;
@@ -82,22 +85,23 @@ a{
   margin-bottom: 5vh;  
 }
 
-#MissionImage{
+#about-image{
   height: 100%;
-  max-height: 400px;
+  max-height: 600px;
   width: 100%;
   object-fit: cover;
   object-position: center;
   border: solid 2px black;
 }
 
-.MissionContent{
+.about-content{
   margin-top: 5px;
   color: white;
   font-size: calc(8px + 2vmin);
   font-family: 'Roboto Slab', serif;
 }
 
+/* Skills Section */
 #skills-section{
   vertical-align: middle;
   background-color: #343A40;
@@ -130,6 +134,75 @@ a{
   margin-bottom: 20px;
 }
 
+/* Technologies Section */
+#technologies-section{
+  vertical-align: middle;
+  background-color: #495057;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  
+}
+
+.technologies-title{
+  font-family: 'Yeseva One', cursive;
+  font-size: 8vmin;
+  color: white;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-bottom: 5vh;  
+}
+
+.technologies-image{
+  margin: 10px;
+  height: 30vmin;
+  object-fit: cover;
+  object-position: center;
+}
+
+.technologies-content{
+  color: white;
+  font-size: calc(8px + 2vmin);
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 20px;
+}
+
+/* Projects Section */
+#project-section{
+  vertical-align: middle;
+  background-color: #343A40;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.project-title{
+  font-family: 'Yeseva One', cursive;
+  font-size: 8vmin;
+  color: white;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-bottom: 5vh;  
+}
+
+#project-image{
+  height: 100%;
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border: solid 2px black;
+}
+
+.project-content{
+  margin-top: 5px;
+  color: white;
+  font-size: calc(8px + 2vmin);
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Inspiration Section */
 #inspiration-section{
   background-color: #495057;
   width: 100%;
@@ -172,6 +245,7 @@ a{
   font-weight: bold;
 }
 
+/* Contact Section */
 #contact-section{
   position: relative;
   vertical-align: middle;
@@ -204,6 +278,7 @@ a{
   margin-bottom: 40px;
 }
 
+/* Footer Section */
 #footer-section{
   position: relative;
   vertical-align: middle;
