@@ -230,7 +230,7 @@ a{
 }
 
 .project-content{
-  margin-top: 100px;
+  margin-top: 20vh;
   color: white;
   font-size: calc(8px + 2vmin);
   font-family: 'Roboto Slab', serif;
