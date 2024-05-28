@@ -324,6 +324,7 @@ a{
 }
 
 .icon{
+  color: black;
   font-size: calc( 20px + 2vw);
   transition: 0.25s;
 }
